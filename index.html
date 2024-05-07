@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard by Kathy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"
+     href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
+    
+</head>
+<body>
+   <div class="sidebar" >
+    <div class="icon" >
+        <ul class="side-menu">
+         <li class="active">
+            <a href="#" >
+        <i class="fas fa-tachometer-alt"></i>
+            <span>Dashboard</span>
+            </a>
+         </li>   
+         <li>
+            <a href="#" >
+            <i class="fas fa-user-circle"></i>
+            <span>Profile</span>
+            </a>
+         </li>  
+           <li>
+            <a href="#" >
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+            </a>
+         </li>   
+         <li>
+            <a href="#" >
+            <i class="fas fa-user"></i>
+            <span>Personal</span>
+            </a>
+         </li>   
+         <li>
+            <a href="#" >
+            <i class="fas fa-desktop"></i>
+            <span>Workspace</span>
+            </a>
+         </li>  
+         <li>
+            <a href="#" >
+            <i class="fas fa-cog"></i>
+            <span>Settings</span>
+            </a>
+         </li>   
+        </ul>
+    </div>
+   </div>
+   <div class="main--content">
+      <div class="header--wrapper">
+         <div class="header--title">
+            <span>Primary</span>
+            <h2>Dashboard</h2>
+         </div>
+         <div class="user--info">
+           <div class="search--box">
+            <i class="fa-solid 
+           fas fa-search"></i>
+            <input type="text"
+            placeholder="Search" />
+         </div>
+         <img src="./happy-worker.jpeg" alt=""/>
+         </div>
+   </div>
+   <div class="card--info">
+      <h1 class="main--title">Today's data</h1>
+      <div class="card--wrapper">
+         <div class="payment--card">
+            <div class="card--header">
+               <div class="amount">
+                  <span class="title">
+                     Amount Paid</span>
+                  <span class="amount-value">GHC800.00</span>
+               </div>
+              <h4 class="cedi">GHC</h4>
+            </div>
+           <span class="card-detail">**** **** **** 1738</span>
+         </div>
+
+         <div class="payment--card light-red">
+            <div class="card--header">
+               <div class="amount">
+                  <span class="title">
+                     Payment Order</span>
+                  <span class="amount-value">GHC300.00</span>
+               </div>
+              <h4 class="cedi darker-red"> <i class="fas fa-list"></i></h4>
+            </div>
+           <span class="card-detail">**** **** **** 2005</span>
+         </div>
+
+         <div class="payment--card light-green">
+            <div class="card--header">
+               <div class="amount">
+                  <span class="title">
+                     Payment Customer</span>
+                  <span class="amount-value">GHC450.00</span>
+               </div>
+              <h4 class="cedi darker-green" > <i class="fas fa-users"></i> </h4>
+            </div>
+           <span class="card-detail">**** **** **** 8593</span>
+         </div>
+
+         <div class="payment--card light-yellow">
+            <div class="card--header">
+               <div class="amount">
+                  <span class="title">
+                     Payment Proceeds</span>
+                  <span class="amount-value">GHC100.00</span>
+               </div>
+              <h4 class="cedi darker-yellow"> <i class="fas fa-check"></i> </h4>
+            </div>
+           <span class="card-detail">**** **** **** 5037</span>
+         </div>
+      </div>
+   </div>
+   <div class="tabular--wrapper">
+      <h3 class="main--title">Finance Data</h3>
+      <div class="table-container">
+         <table>
+            <thead>
+               <tr>
+                  <th>Date</th>
+                  <th>Transaction Type</th>
+                  <th>Description</th>
+                  <th>Amount</th>
+                  <th>Category</th>
+                  <th>Status</th>
+                  <th>Action</th>
+               </tr>
+               <tbody>
+                  <tr>
+                     <td>
+                        2024-02-01
+                     </td>
+                     <td>Expenses</td>
+                     <td>Office 
+                        Supplies
+                     </td>
+                     <td>GHC400</td>
+                     <td>Office 
+                        Expenses</td>
+                     <td>Pending</td>
+                     <td><button>Edit</button></td>
+                  </tr>
+               </tbody>
+            </thead>
+
+            <tbody>
+               <tr>
+                  <td>
+                     2024-02-02
+                  </td>
+                  <td>Expense</td>
+                  <td>Travel
+                    Expenses
+                  </td>
+                  <td>GHC350</td>
+                  <td>Travel
+                     Expenses</td>
+                  <td>Pending</td>
+                  <td><button>Edit</button></td>
+               </tr>
+            </tbody>
+
+            <tbody>
+               <tr>
+                  <td>
+                     2024-02-04
+                  </td>
+                  <td>Income</td>
+                  <td>Client 
+                   Payment
+                  </td>
+                  <td>GHC600</td>
+                  <td>Sales
+                     </td>
+                  <td>Completed</td>
+                  <td><button>Edit</button></td>
+               </tr>
+            </tbody>
+
+            <tfoot>
+               <tr>
+                  <td colspan="7">Total: GHC 1350</td>
+               </tr>
+            </tfoot>
+
+         </table>
+      </div>
+   </div>
+</body>
+</html>
